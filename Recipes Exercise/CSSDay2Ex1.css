@@ -5,6 +5,7 @@
  .container {
     width: 800px;
     justify-content: center;
+    margin: 0 auto;
     padding-right: 50px;
     padding-left: 50px;
     box-shadow: 0 8px 8px 0 darkgrey;
