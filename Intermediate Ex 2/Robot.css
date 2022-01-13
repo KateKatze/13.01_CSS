@@ -1,12 +1,34 @@
 
+body, html {
+  height: 300%;
+}
+
+body{
+        background: url('./images/winter.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
   .hat{
     z-index: 100;
     margin-top: 500px;
     margin-bottom: 5000px;
     position: relative;
-    margin-left: 150px ;
+    margin-left: 120px ;
+    float:left;
+    width: 250px;
     
-    
+  }
+
+  .coffee{
+    z-index: 90;
+    position: absolute;
+    margin-left: 1200px;
+    float:right;
+    width: 250px;
+    margin-top: 1500px;
+     
   }
   
   .head{
