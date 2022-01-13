@@ -1,0 +1,45 @@
+
+  #face {
+    width: 1000px;
+    
+  }
+
+  #eyes {
+    position: absolute ;
+    left: 280px;
+    top: 440px;
+    width: 500px;
+    
+  }
+
+  #hair{
+    position: absolute ;
+    left: 120px;
+    top: 0px;
+    width: 800px;
+    z-index: 1;
+    
+  }
+
+  #nose{
+    position: absolute ;
+    left: 430px;
+    top: 600px;
+    width: 150px;
+  }
+
+  #mouth{
+    position: absolute ;
+    left: 370px;
+    top: 830px;
+    width: 300px;
+  }
+
+
+  #ears{
+    position: absolute ;
+    left: 0px;
+    top: 200px;
+    width: 1000px;
+    
+  }
