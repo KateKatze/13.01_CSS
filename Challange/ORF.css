@@ -1,3 +1,47 @@
 nav{
     text-align: right;
 }
+
+.images{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+
+
+.bike{
+    height: 15%;
+    width: 15%;
+    
+}
+
+.dragonfly{
+    height: 15%;
+    width: 15%;
+}
+
+.forest{
+    height: 15%;
+    width: 15%;
+}
+
+.lake{
+    height: 15%;
+    width: 15%;
+}
+
+.nature{
+    height: 15%;
+    width: 15%;
+}
+
+.redtail{
+    height: 15%;
+    width: 15%;
+}
+
+.tree{
+    height: 15%;
+    width: 15%;
+}
