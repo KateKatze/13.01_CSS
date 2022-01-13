@@ -1,3 +1,11 @@
+
+html  {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+  }
+
 body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
@@ -15,14 +23,14 @@ body{
 }
 
 .navbar{
-    position: fixed;
     text-align: center;
     list-style-type:none;
     width: 100%;
     font: normal;
     font-family:Verdana, Tahoma, sans-serif ;
-    background-color: #c6ddf8e8;
+    background-color: #fada9fe8;
     z-index: 1;
+   
 
 }
 
@@ -50,6 +58,7 @@ body{
     margin-left: 26%;
     margin-right:26%;
     border-style:outset ;
+    float:center;
 
 }
 
