@@ -1,97 +1,81 @@
-
 html  {
     height: 100%;
   }
-  body {
-    margin: 0;
-  }
 
 body{
+    margin: 0;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     color: black;
-    background-color:#c6ddf8e8 ;
+    background-color:#e2dfdce8 ;
 }
 
-.headline{
-    text-align: center;
-    font-size: xx-large;
-    font-weight:normal;
-    line-height:140%;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
-
-.navbar{
+nav{
     text-align: center;
     list-style-type:none;
     width: 100%;
     font: normal;
-    font-family:Verdana, Tahoma, sans-serif ;
-    background-color: #fada9fe8;
+    font-family: Verdana, serif ;
     z-index: 1;
-   
-
 }
 
-.sidebar{
-    margin-top: 110px;
-    border-radius: 4px;
-    border-color: blanchedalmond;
-    border-style:groove;
-    margin:5;
-    width:300px;
+nav a {
+    text-decoration: none;
+    color: red;
+    font-size: larger;
+    padding-right: 20px;
+    padding-left: 20px;
+    }
+
+.headline{
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.columns{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+}
+
+.firstcolumn{
+    padding-left: 10px;
+    background: #e2dfdce8;
     float: left;
-    margin-left:1%;
-    position:relative;
-    padding: 3px;
-    text-align: left;
+    width: 33%;
 }
 
 
-.main{
-    
-    background-color: rgb(134, 169, 235);
-    border: blanchedalmond;
-    border-radius: 6px;
-    text-align: center;
-    margin-left: 26%;
-    margin-right:26%;
-    border-style:outset ;
-    float:center;
-
+.secondcolumn{
+    float: left;
+    background: #e2dfdce8;
+    width: 33%;
 }
 
-
-.sidebar2{
-    margin-top: 110px;
-    border-radius: 4px;
-    border-color: blanchedalmond;
-    border-style:groove;
-    margin:5;
-    width:300px;
-    float: right;
-    margin-right:1%;
-    position:sticky;
-    padding: 3px;
-    text-align: left;
-    left:500px
+.thirdcolumn{
+    background: #e2dfdce8;
+    float: left;
+    width: 33%;
 }
-.article{
-    
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: rgb(10, 10, 10);
     text-align: center;
 }
 
-.attitle{
-    
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    text-transform: capitalize;
-    color: rgb(37, 37, 37);
-    text-decoration-line: underline;
+footer a:hover {
+    color:green;
 }
 
-.footer{
-  text-transform: lowercase;
-  text-align-last: center;
+footer a:visited {
+    color:rgb(32, 1, 1);
 }
