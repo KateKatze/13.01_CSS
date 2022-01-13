@@ -1,0 +1,7 @@
+.container {
+    width: 800px;
+    text-align: center
+    box-shadow: 5px 5px 5px 5px black;
+    padding: 50px;
+}
+
