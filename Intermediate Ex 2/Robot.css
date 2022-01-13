@@ -1,5 +1,26 @@
 
+  .hat{
+    z-index: 100;
+    margin-top: 500px;
+    margin-bottom: 5000px;
+    position: relative;
+    margin-left: 150px ;
+    
+    
+  }
+  
+  .head{
+    z-index: 2;
+    position: fixed;
+    
+    margin-bottom: 3000px;
+    
+   
+  }
+
   #face {
+
+    
     width: 1000px;
     
   }
