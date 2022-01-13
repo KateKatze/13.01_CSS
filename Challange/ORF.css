@@ -1,6 +1,42 @@
-nav{
-    text-align: right;
+html  {
+    height: 100%;
+  }
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    background-color:#4371A3 ;
+    margin: 0%;
 }
+
+nav{
+    padding-top: 25px;
+    background-color: #5286C1;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a{
+    color:white;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande, sans-serif;
+    padding-left: 120px;
+}
+
+.disabledlink{
+    cursor: default;
+    pointer-events: none;        
+    text-decoration: none;
+    color: lightgrey;
+}
+
+
+
 
 .images{
     margin-left: 30px;
@@ -11,37 +47,45 @@ nav{
 
 
 .bike{
+    float:left;
     height: 15%;
     width: 15%;
     
 }
 
 .dragonfly{
-    height: 15%;
-    width: 15%;
-}
-
-.forest{
+    float:left;
     height: 15%;
     width: 15%;
 }
 
 .lake{
+    float:left;
     height: 15%;
     width: 15%;
 }
 
+.forest{
+    float:left;
+    height: 15%;
+    width: 15%;
+}
+
+
 .nature{
+    float:left;
     height: 15%;
     width: 15%;
 }
 
 .redtail{
+    float:left;
     height: 15%;
     width: 15%;
 }
 
 .tree{
+    float:left;
     height: 15%;
     width: 15%;
 }
