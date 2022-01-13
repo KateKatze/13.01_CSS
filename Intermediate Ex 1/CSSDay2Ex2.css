@@ -13,9 +13,9 @@ a:active {
     text-decoration: underline;
     color: #F36;
 }
-
+/* Background COLOR CHANGE */
 body {
-    background: #464939 url(pagebg.gif) repeat-y top center;
+    background: #464939 url(pagebg.gif) repeat-y top center;  
     font: 69%/1.5em 'Lucida Sans Unicode', 'Lucida Grande', verdana, arial, sans-serif;
     color: #333;
     margin: 0;
@@ -102,7 +102,7 @@ p {
     margin: 0;
     padding: 0;
 }
-
+/* Class ID EXP Bronw Bold*/
 #explanation .danger{
     color: brown;
    
@@ -129,6 +129,7 @@ p {
     color: white;
 
 }
+/*WHERE CAN I GET SOME*/
 #participation {
     color:white;
     background-color: #747C3A;
@@ -254,18 +255,19 @@ h3.archives span {
     padding: 10px;
     color: #FFFFFF;
 }
-
+/* ALL H3 ELEMENTS FONT SIZE */
 h3{
     font-size: 12pt;
 }
 
+/*Font Color DD88*/
 .years > .strong{
     color: #DD8804;
 }
 
 
 
-
+/*List ELement FONT COLOR BOLD*/
 #philosophy ul {
     color: #525D21;
     font-style: italic;
